@@ -4,7 +4,8 @@
  */
 html,
 body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
 }
 body {
   padding-top: 70px;
@@ -35,25 +36,30 @@ footer {
 
   .row-offcanvas-right
   .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
+    right: -50%;
+    /* 6 columns */
   }
 
   .row-offcanvas-left
   .sidebar-offcanvas {
-    left: -50%; /* 6 columns */
+    left: -50%;
+    /* 6 columns */
   }
 
   .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
+    right: 50%;
+    /* 6 columns */
   }
 
   .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
+    left: 50%;
+    /* 6 columns */
   }
 
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 50%; /* 6 columns */
+    width: 50%;
+    /* 6 columns */
   }
 }
